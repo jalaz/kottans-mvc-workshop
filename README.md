@@ -6,7 +6,7 @@
 - [Lifecycle of ASP.NET MVC 5 application](http://www.asp.net/mvc/overview/getting-started/lifecycle-of-an-aspnet-mvc-5-application)
 - [Detailed walkthrough ASP.NET MVC request lifecycle](http://blog.thedigitalgroup.com/chetanv/2015/06/30/a-detailed-walkthrough-of-asp-net-mvc-request-life-cycle/)
 - [Detailed ASP.NET Pipeline](http://www.dotnet-tricks.com/Tutorial/mvc/LYHK270114-Detailed-ASP.NET-MVC-Pipeline.html)
-
+- [Nice article about extending model binders (I believe should answer the question about DateTimeOffset with Telerik)](http://www.prideparrot.com/blog/archive/2012/6/customizing_property_binding_through_attributes)
 #### IIS
 - [How IIS Process ASP.NET request](http://abhijitjana.net/2010/03/14/beginner%E2%80%99s-guide-how-iis-process-asp-net-request/)
 - [ASP.NET Application Life Cycle Overview for IIS 7.0](https://msdn.microsoft.com/en-us/library/bb470252)
