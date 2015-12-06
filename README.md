@@ -11,6 +11,7 @@
 #### IIS
 - [How IIS Process ASP.NET request](http://abhijitjana.net/2010/03/14/beginner%E2%80%99s-guide-how-iis-process-asp-net-request/)
 - [ASP.NET Application Life Cycle Overview for IIS 7.0](https://msdn.microsoft.com/en-us/library/bb470252)
+- [Основы архитектуры IIS, или запросопровод для ASP.NET](http://habrahabr.ru/post/189086/)
 
 #### OWIN
 
