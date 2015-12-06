@@ -1,0 +1,17 @@
+﻿@model Workshop.Controllers.ImportantClient
+
+<div>@Html.ValidationSummary()</div>
+
+<form action="@Url.Action("Detail")" method="POST">
+    @Html.HiddenFor(m => m.Id)
+    <div>
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName)
+        @Html.ValidationMessageFor(m => m.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.SecondName)
+        @Html.TextBoxFor(m => m.SecondName)
+    </div>
+    <input type="submit" value="Save"/>
+</form>

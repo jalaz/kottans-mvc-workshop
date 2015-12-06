@@ -1,0 +1,17 @@
+﻿@model List<Workshop.Controllers.ImportantClient>
+
+@{
+    ViewBag.Title = "Very important clients page";
+}
+
+<h2>Clients</h2>
+<ul>
+    <a href="@Url.Action("Detail")">Add a new very important client</a>
+    @foreach (var client in Model)
+    {
+        <li>
+            @client.FirstName @client.SecondName
+            <a href="@Url.Action("Detail", new {client.Id})">View details</a>
+        </li>
+    }
+</ul>
